@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:font="http://schemas.android.com/apk/assets/font"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="Bienvenido a la Guia7"
+        android:textSize="25sp"/>
+        <Button
+            android:id="@+id/btnConfiguracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Nombre"
+            android:layout_alignParentEnd="true"
+            android:elevation="20dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="@color/blanco" />
+</RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnJugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/boton_selector"
+        android:text="Jugar"
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/blanco" />
+    <Button
+        android:id="@+id/btnPuntaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/boton_selector"
+        android:text="Ver puntaje"
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/blanco"
+        font:typeface="Roboto-Bold.TTF"/>
+    <Button
+        android:id="@+id/btnRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/boton_selector"
+        android:textAllCaps="false"
+        android:text="Ver respuesta correcta"
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/blanco" />
+    <Button
+        android:id="@+id/btnDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/boton_selector"
+        android:textAllCaps="false"
+        android:text="Mis datos"
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/blanco" />
+
+</LinearLayout>
